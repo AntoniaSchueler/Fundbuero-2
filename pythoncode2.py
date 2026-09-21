@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 from ultralytics import YOLO
 
 st.set_page_config(
-    page_title="Fundbüro am Katharineum neu",
+    page_title="Fundbüro am Katharineum",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -251,7 +251,7 @@ if "page" not in st.session_state:
 
 st.markdown('<div class="top-rule"></div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="brand-title">Fundbüro am<br> Katharineum neu</div>',
+    '<div class="brand-title">Fundbüro am<br> Katharineum</div>',
     unsafe_allow_html=True,
 )
 
