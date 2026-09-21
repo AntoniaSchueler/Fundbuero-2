@@ -299,7 +299,7 @@ def render_start():
             st.rerun()
 
     st.markdown(
-        '<div class="footer">Ein verlorener Gegenstand findet vielleicht '
+        '<div class="footer">Ein verlorener Test Gegenstand findet vielleicht '
         'seinen Weg zurück.</div>',
         unsafe_allow_html=True,
     )
