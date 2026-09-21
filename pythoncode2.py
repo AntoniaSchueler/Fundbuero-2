@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 from ultralytics import YOLO
 
 st.set_page_config(
-    page_title="Fundbüro am Katharineum",
+    page_title="Fundbüro am Katharineum neu",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="collapsed",
