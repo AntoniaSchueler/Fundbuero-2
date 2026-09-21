@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 from ultralytics import YOLO
 
 st.set_page_config(
-    page_title="Fundbüro am Katharineum neu",
+    page_title="Fundbüro am Katharineum",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -299,7 +299,7 @@ def render_start():
             st.rerun()
 
     st.markdown(
-        '<div class="footer">Ein verlorener Test Gegenstand findet vielleicht '
+        '<div class="footer">Ein verlorener Gegenstand findet vielleicht '
         'seinen Weg zurück.</div>',
         unsafe_allow_html=True,
     )
