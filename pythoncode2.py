@@ -251,7 +251,7 @@ if "page" not in st.session_state:
 
 st.markdown('<div class="top-rule"></div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="brand-title">Fundbüro am<br> Katharineum</div>',
+    '<div class="brand-title">Fundbüro am<br> Katharineum neu</div>',
     unsafe_allow_html=True,
 )
 
